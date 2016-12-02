@@ -8528,14 +8528,14 @@ Source: ENG_CD_1445055_A.pdf</description>
 <part name="C4" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="C5" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="R5" library="adafruit" deviceset="R-US_" device="M0805" value="1K"/>
-<part name="C7" library="adafruit" deviceset="C-US" device="C0805" value="18pf"/>
-<part name="C8" library="adafruit" deviceset="C-US" device="C0805" value="18pf"/>
+<part name="C7" library="adafruit" deviceset="C-US" device="C0805"/>
+<part name="C8" library="adafruit" deviceset="C-US" device="C0805"/>
 <part name="LED0" library="Shell2013" deviceset="LED" device="1206"/>
 <part name="R6" library="adafruit" deviceset="R-US_" device="M0805" value="1K"/>
 <part name="LED1" library="Shell2013" deviceset="LED" device="1206"/>
 <part name="R7" library="adafruit" deviceset="R-US_" device="M0805" value="1K"/>
-<part name="C9" library="adafruit" deviceset="C-US" device="C0805" value="18pf"/>
-<part name="C10" library="adafruit" deviceset="C-US" device="C0805" value="18fp"/>
+<part name="C9" library="adafruit" deviceset="C-US" device="C0805"/>
+<part name="C10" library="adafruit" deviceset="C-US" device="C0805"/>
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
@@ -8622,8 +8622,6 @@ Source: ENG_CD_1445055_A.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="332.74" y="193.04" size="1.778" layer="91">Do not add unless needed</text>
-<text x="332.74" y="203.2" size="1.778" layer="91">Do not add unless needed</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
