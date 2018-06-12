@@ -9822,17 +9822,11 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100"/>
 <part name="LED12" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="430"/>
-<part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="430"/>
-<part name="LED9" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="430"/>
-<part name="LED7" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="430"/>
 <part name="R37" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K"/>
 <part name="ETH2" library="ETHERNET-3" deviceset="ETHERNET" device=""/>
 <part name="ETH1" library="ETHERNET-3" deviceset="ETHERNET" device=""/>
 <part name="GND3" library="E14-P-099-R21.2(US_drills)" deviceset="GND" device=""/>
 <part name="GND5" library="E14-P-099-R21.2(US_drills)" deviceset="GND" device=""/>
-<part name="LED8" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="LED18" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="JP7" library="E-P-099-R2.2" deviceset="PINHD-2X14" device=""/>
 <part name="JP6" library="E-P-099-R2.2" deviceset="PINHD-2X14" device=""/>
@@ -9967,17 +9961,11 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="R25" gate="G$1" x="261.62" y="35.56" rot="R270"/>
 <instance part="LED12" gate="G$1" x="292.1" y="35.56"/>
 <instance part="R26" gate="G$1" x="281.94" y="40.64" rot="R180"/>
-<instance part="R17" gate="G$1" x="127" y="12.7"/>
-<instance part="LED9" gate="G$1" x="137.16" y="53.34" rot="R180"/>
-<instance part="R19" gate="G$1" x="137.16" y="63.5" rot="R90"/>
-<instance part="LED7" gate="G$1" x="119.38" y="86.36" rot="R180"/>
-<instance part="R14" gate="G$1" x="119.38" y="99.06" rot="R90"/>
 <instance part="R37" gate="G$1" x="363.22" y="241.3" rot="R90"/>
 <instance part="ETH2" gate="G$1" x="129.54" y="246.38"/>
 <instance part="ETH1" gate="G$1" x="38.1" y="48.26" rot="R180"/>
 <instance part="GND3" gate="1" x="27.94" y="83.82"/>
 <instance part="GND5" gate="1" x="35.56" y="83.82"/>
-<instance part="LED8" gate="G$1" x="127" y="22.86"/>
 <instance part="LED18" gate="G$1" x="363.22" y="254"/>
 <instance part="JP7" gate="A" x="299.72" y="254"/>
 <instance part="JP6" gate="A" x="281.94" y="254"/>
@@ -10302,23 +10290,16 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="142.24" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<junction x="137.16" y="68.58"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="12.7" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
-<junction x="132.08" y="12.7"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="124.46" y1="104.14" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
-<junction x="124.46" y="104.14"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -10717,8 +10698,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <junction x="132.08" y="25.4"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="25.4" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="LED8" gate="G$1" pin="A"/>
-<junction x="127" y="25.4"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="22"/>
@@ -10739,8 +10718,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <pinref part="R18" gate="G$1" pin="1"/>
 <label x="142.24" y="50.8" size="1.778" layer="95"/>
 <wire x1="137.16" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="LED9" gate="G$1" pin="A"/>
-<junction x="137.16" y="50.8"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="50.8" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="58.42" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
@@ -10986,27 +10963,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <junction x="274.32" y="40.64"/>
 </segment>
 </net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="127" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="17.78" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="LED8" gate="G$1" pin="C"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="LED9" gate="G$1" pin="C"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="LED7" gate="G$1" pin="C"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="93.98" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="RIGHT_SWITCH" class="0">
 <segment>
 <pinref part="AT1" gate="G$1" pin="A5"/>
@@ -11039,12 +10995,9 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="129.54" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
 <label x="127" y="83.82" size="1.778" layer="95"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="83.82" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="83.82" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="86.36" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
 <junction x="124.46" y="83.82"/>
-<pinref part="LED7" gate="G$1" pin="A"/>
-<junction x="119.38" y="83.82"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
